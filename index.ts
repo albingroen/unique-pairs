@@ -31,5 +31,3 @@ export const getUniquePairs = (nodes: string[]) => {
 
   return uniquePairs;
 };
-
-console.log(getUniquePairs(["John", "Johanna", "Jane"]));
