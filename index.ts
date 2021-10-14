@@ -16,7 +16,7 @@ export const getUniquePairs = (nodes: string[]) => {
 
   while (!success) {
     nodes.forEach((node) => {
-      if (!uniquePairs.node) {
+      if (!uniquePairs[node]) {
         const receiver = getReceiver(node);
         uniquePairs[node] = receiver;
       }
